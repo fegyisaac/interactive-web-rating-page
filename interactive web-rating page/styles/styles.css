@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Overpass', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: #121417;
+}
+#section-1{
+    display: block;
+}
+.container{
+    background: #252d37;
+    width: 315px;
+    height: 340px;
+    border-radius: 40px;
+    padding: 28px 30px;
+}
+
+.start{
+    padding-bottom: 25px;
+}
+.star{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #34373b;
+    display: grid;
+    place-items: center;
+    /* padding-bottom: 10px; */
+}
+
+.text{
+
+}
+
+.text h1{
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.text p{
+    color: #959eac;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.numbers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    padding-bottom: 25px;
+
+
+}
+.num{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #959eac;
+
+}
+.num:hover{
+    color: #fff;
+    background: #959eac;
+}
+
+.num:active{
+    background: #fb7413;
+
+}
+
+#btn{
+    background: #fb7413;
+    /* bottom: 0; */
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    border: none;
+    border-radius: 60px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+#btn:hover {
+    background: #fff;
+    color: #fb7413;
+}
+
+
+/* section 2 */
+#section-2{
+    display: none;
+}
+
+.tanq{
+    display: grid;
+    place-items: center;
+    padding-bottom: 30px;
+}
+.cat{
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+}
+.select{
+    background: #34373b;
+    color: #fb7413;
+    padding: 4px;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    border-radius: 40px;
+    width: 65%;
+    text-align: center;
+}
+
+.content h1{
+    color: #ffffff;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.content p{
+    color: #959eac;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 8px;
+}
+
+
+
+
+
+
+
